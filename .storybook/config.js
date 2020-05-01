@@ -8,5 +8,6 @@ configure(loadStories, module);
 
 import { withKnobs } from "@storybook/addon-knobs";
 import { addDecorator } from "@storybook/react";
-
+import { withInfo } from "@storybook/addon-info";
 addDecorator(withKnobs);
+addDecorator(withInfo);
